@@ -19,7 +19,7 @@ function Home() {
       <div className="container" style={{ marginTop: 120 }}>
         {users.map((item) => (
           <Link to={`/user-details/${item.id}`} className="text-decoration-none">
-            <div key={item.id} className="w-100 d-flex mb-3" style={{ backgroundColor: "#2b2d42" }}>
+            <div key={item.id} className="w-100 d-flex mb-3 rounded shadow" style={{ backgroundColor: "#2b2d42" }}>
               <div className="" style={{ width: 80, height: 80 }}>
                 <img src={item.image} alt={item.username} className="rounded-circle" style={{ width: 80, height: 80 }} />
               </div>

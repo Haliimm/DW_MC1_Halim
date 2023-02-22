@@ -24,8 +24,8 @@ function Profil() {
   return (
     <>
       <div className="container d-flex flex-column align-items-center" style={{ marginTop: 120 }}>
-        <div className="d-flex flex-column align-items-center bg-secondary" style={{ marginTop: "auto", width: "100%", height: 340 }}>
-          <div className="rounded-circle" style={{ width: 200, height: 200 }}>
+        <div className="d-flex flex-column align-items-center bg-secondary rounded shadow" style={{ marginTop: "auto", width: "100%", height: 340 }}>
+          <div className="rounded-circle shadow" style={{ width: 200, height: 200 }}>
             <img src={user.image} alt={user.username} className="rounded-circle" style={{ width: 200, height: 200, borderStyle: "solid", borderColor: "red", borderWidth: 5 }} />
           </div>
           <h5 className="text-light mt-3">@{user.username}</h5>
